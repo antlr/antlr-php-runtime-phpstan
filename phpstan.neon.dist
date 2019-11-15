@@ -1,0 +1,9 @@
+includes:
+    - vendor/phpstan/phpstan/conf/bleedingEdge.neon
+
+parameters:
+    level: max
+    paths: [src, tests]
+    tmpDir: '%rootDir%/.cache/phpstan'
+    excludes_analyse:
+        - */tests/Fixtures/*

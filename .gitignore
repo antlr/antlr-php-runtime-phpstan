@@ -1,0 +1,6 @@
+/.cache
+/.phpunit.result.cache
+/vendor
+/phpcs.xml
+/phpstan.neon
+/phpunit.xml

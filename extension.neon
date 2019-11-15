@@ -1,0 +1,5 @@
+services:
+    -
+        class: Antlr\Antlr4\Runtime\PhpStan\ParserRuleContextGetterReturnTypeExtension
+        tags:
+            - phpstan.broker.dynamicMethodReturnTypeExtension

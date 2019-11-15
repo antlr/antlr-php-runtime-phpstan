@@ -1,0 +1,47 @@
+{
+  "name": "antlr/antlr-php-runtime-phpstan",
+  "type": "phpstan-extension",
+  "description": "ANTLR4 PHP Runtime extensions for PHPStan.",
+  "keywords": ["antlr4", "php", "phpstan"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Marcos Passos",
+      "homepage": "http://github.com/marcospassos"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "phpstan/phpstan": "^0.11.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0.4",
+    "antlr/antlr4-php-runtime": "^0.3.0",
+    "slevomat/coding-standard": "^5.0.4",
+    "squizlabs/php_codesniffer": "^3.4.1",
+    "phpstan/phpstan-phpunit": "^0.11.2",
+    "phpstan/extension-installer": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Antlr\\Antlr4\\Runtime\\PhpStan\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/Fixtures"
+    ],
+    "psr-4": {
+      "Antlr\\Antlr4\\Runtime\\PhpStan\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "phpstan": {
+      "includes": [
+        "extension.neon"
+      ]
+    }
+  }
+}
