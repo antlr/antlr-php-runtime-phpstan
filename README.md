@@ -1,7 +1,8 @@
 # ANTLR4 Extension for PHPStan
 
 [![Travis CI](https://api.travis-ci.org/antlr/antlr-php-runtime-phpstan.svg?branch=master)](https://travis-ci.org/antlr/antlr-php-runtime-phpstan)
-[![BSD-3-Clause](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](https://github.com/antlr/antlr-php-runtime-phpstan/blob/master/LICENSE)
+[![Latest Stable Version](https://poser.pugx.org/antlr/antlr-php-runtime-phpstan/v/stable)](https://packagist.org/packages/antlr/antlr-php-runtime-phpstan)
+[![License](https://poser.pugx.org/antlr/antlr-php-runtime-phpstan/license)](https://packagist.org/packages/antlr/antlr-php-runtime-phpstan)
 
 Static analysis for [ANTLR4 PHP Runtime](https://github.com/antlr/antlr-php-runtime).
 
