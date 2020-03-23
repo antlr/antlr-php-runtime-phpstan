@@ -31,7 +31,12 @@ class FooContext extends ParserRuleContext
     public static function test() : void
     {
         $context = new FooContext(null);
-        $context->subrule()[0];
+        $children = $context->subrule();
+
+        if (isset($children[0])) {
+            $children[0]->getSymbol();
+        }
+
         $symbol = $context->subrule(0);
 
         if ($symbol !== null) {
